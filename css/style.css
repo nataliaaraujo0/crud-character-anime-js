@@ -25,10 +25,9 @@ background-color: slateblue;
 
 
 #col{
-    margin-top: 30px;
-    margin-left: 30px; 
-    margin-bottom: 30px;
-    padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
    
 }
 .card{
