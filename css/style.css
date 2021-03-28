@@ -1,8 +1,13 @@
-/** efeito ao passar o cursor pelo mouse
-**/
+body{
+    background-color: rgb(37, 37, 37);
+}
 .nav-wrapper{
-background-color: rgb(86, 44, 236);
-fill: aqua;
+background-color: rgb(144, 144, 233);
+}
+
+.container{
+margin-top: 20px;
+
 }
 
 .img-avatar{
@@ -16,7 +21,8 @@ fill: aqua;
     width: 305px;
     height: 406px;
 }
-
+/** efeito ao passar o cursor pelo mouse
+**/
 .card:hover
 { background-color: rgb(149, 155, 238);
         box-shadow:
@@ -26,6 +32,7 @@ fill: aqua;
         transform: translateX(-3px);
         
 }
+
 .page-footer{
 background-color: rgb(98, 23, 148);
 }
