@@ -36,3 +36,13 @@ box-shadow: rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 4
 .page-footer{
 background-color: rgb(98, 23, 148);
 }
+
+#input-field{
+   width: 48px;
+   height: 48px;
+   font-size: 48px;
+   line-height: 48px;
+   text-align: center;
+   padding-left: 70px;
+
+}
