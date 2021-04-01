@@ -46,3 +46,17 @@ background-color: rgb(98, 23, 148);
    padding-left: 70px;
 
 }
+
+.deleteButton{
+    background-color: #f15555c2;
+    height: 45px;
+    width: 70px;
+    border: 1px solid  #e4e4e4;
+    margin: 0 16px 0 0;
+    padding: 11px 16px 11px 16px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius:30px ;
+    box-sizing: border-box;
+    
+}

@@ -48,7 +48,26 @@ function  handleTyping(event){
 } 
 
 //montar lista - renderizar comentários
-function render(){
+function render(){ 
+    //funcao deletetar button
+    function createDeleteButton(index){
+
+        function deleteComent(){
+           globalComent.splice(index,1); 
+           render();
+        }
+
+
+        var button = document.createElement('button');
+        button.classList.add('deleteButton'); 
+        button.textContent = 'x';
+
+        button.addEventListener('click',deleteComent);
+         return button;
+
+
+    }
+
     var divComents = document.querySelector('#coments');
      divComents.innerHTML = '';   //limpar a div
 
@@ -58,10 +77,17 @@ function render(){
         var currentComent = globalComent[i];
 
         var li = document.createElement('li');
-        var button = document.createElement('button');
-        button.textContent = 'x';
-        li.textContent = currentComent;
-        ul.appendChild(li);
+        var button = createDeleteButton(i);
+         
+          
+         var span = document.createElement('span');
+         span.textContent = currentComent;
+         
+         li.appendChild(button);
+         li.appendChild(span);
+         ul.appendChild(li);
+
+       
     }
     divComents.appendChild(ul);
     clearInput();
