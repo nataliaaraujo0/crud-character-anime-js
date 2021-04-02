@@ -1,62 +1,62 @@
-body{
-    background-color: rgb(236, 239, 247);
+h1 {
+    color: rgb(90, 55, 219);
 }
-.nav-wrapper{
-margin-top: 30px;
-background-color: rgb(62, 161, 115);
-box-shadow: rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px, rgba(0, 0, 0, 0.2) 0px 11px 15px -7px;
-}
-
-.card{
-    margin-top: 50px;    
+.nav-wrapper {
+    margin-top: 20px;
+    background-color: #9f71e9;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px,
+        rgba(0, 0, 0, 0.2) 0px 11px 15px -7px;
 }
 
-.img-avatar{
+h4{
+   margin-bottom: 80px;
+  
+}
+
+.img-avatar {
     padding-top: 10px;
     padding-left: 10px;
     width: 70px;
     height: 60px;
 }
 
-.img-card{
+.img-card {
     width: 305px;
     height: 406px;
-
-
 }
 /** efeito ao passar o cursor pelo mouse
 **/
-.card:hover
-{ background-color:#fdfffd;
-       
-        box-shadow:rgb(92, 92, 92) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px, rgba(0, 0, 0, 0.2) 0px 11px 15px -7px
+.card:hover {
+    background-color: #fdfffd;
 
+    box-shadow: rgb(92, 92, 92) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px,
+        rgba(0, 0, 0, 0.2) 0px 11px 15px -7px;
 }
 
-.page-footer{
-background-color: rgb(98, 23, 148);
-}
 
-#input-field{
-   width: 48px;
-   height: 48px;
-   font-size: 48px;
-   line-height: 48px;
-   text-align: center;
-   padding-left: 70px;
 
-}
 
-.deleteButton{
-    background-color: #f15555c2;
-    height: 45px;
-    width: 70px;
-    border: 1px solid  #e4e4e4;
+.deleteButton {
+    background-color: #ec3831c2;
+    height: 35px;
+    width: 40px;
+    border: 1px solid #e4e4e4;
     margin: 0 16px 0 0;
     padding: 11px 16px 11px 16px;
     display: inline-block;
     cursor: pointer;
-    border-radius:30px ;
+    border-radius: 10px;
     box-sizing: border-box;
-    
+}
+
+.material-icons {
+    color: rgb(70, 28, 146);
+}
+
+input::placeholder {
+    color: rgb(51, 11, 228);
+    font-size: large;
+}
+.page-footer {
+    background-color: rgb(98, 23, 148);
 }
